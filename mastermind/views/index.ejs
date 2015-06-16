@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <script src='jquery.min.js'></script>
+    <script src='/js/skrypt.js'></script>
+  </head>
+  <body>
+    <p>Welcome to <%= title %></p>
+    <p><input type="number" id="size"><label class="label">ilość elementow</label><br>
+      <input type="number" id="dim"><label class="label">Ilość kolorów</label><br>
+      <input type="number" id="max"><label class="label">Ograniczenie ruchów (wpisz 0 dla nieograniczonych)</label><br>
+    <button id="btnGraj">Zaczynamy</button>
+    <div id='pola'>
+      <h2>Gra</h2>
+      <p id="ruchyInfo"></p>
+      <p id="stan"></p>
+    </div>
+          <div id="poleWynik">
+              <input type="button" value="sprawdz" id="sprawdz">
+          </div>
+           
+    </p>
+  </body>
+</html>
